@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_in"
+    tools:context=".SignInActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="200dp"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/number1"
+            android:layout_width="285dp"
+            android:layout_height="46dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="38dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/transparent"
+            android:hint="Enter your phone number"
+            android:padding="15dp"
+            android:inputType="phone"
+            android:textColor="@color/primary"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="14sp">
+        </EditText>
+        <EditText
+            android:id="@+id/password1"
+            android:layout_width="285dp"
+            android:layout_height="46dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="44dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/transparent"
+            android:hint="Enter Password"
+            android:padding="15dp"
+            android:inputType="textPassword"
+            android:textColor="@color/primary"
+            android:textColorHint="@android:color/darker_gray"
+            android:textSize="14sp">
+        </EditText>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/btn_signup3"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+
+                android:layout_marginStart="67dp"
+                android:layout_marginEnd="71dp"
+                android:layout_marginBottom="49dp"
+                android:background="@android:color/transparent">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btn_forgetPass"
+                android:layout_width="129dp"
+                android:layout_height="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="171dp"
+                android:layout_marginBottom="103dp"
+                android:background="@android:color/transparent">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btn_signin3"
+                android:layout_width="47dp"
+                android:layout_height="19dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="60dp"
+                android:layout_marginBottom="13dp"
+                android:background="@android:color/transparent">
+
+            </Button>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

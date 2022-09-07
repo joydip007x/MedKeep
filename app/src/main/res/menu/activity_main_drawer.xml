@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single"
+        >
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_outline_account_circle_24"
+            android:title="Personal Info" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_fact_check_24"
+            android:title="Reports" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_baseline_local_hospital_24"
+            android:title="Diagnostics Centers" />
+        <item
+            android:id="@+id/nav_wish"
+            android:icon="@drawable/ic_baseline_dashboard_24"
+            android:title="Settings" />
+        <item
+            android:id="@+id/log_out"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:title="Log Out" />
+    </group>
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "688355565435",
+    "firebase_url": "https://medikeep-abf40-default-rtdb.firebaseio.com",
+    "project_id": "medikeep-abf40",
+    "storage_bucket": "medikeep-abf40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688355565435:android:29bc51fdacadd59c3aa7de",
+        "android_client_info": {
+          "package_name": "com.example.medx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688355565435-p3k1onkenrch6muv9q6uf3mdun9g01mr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtcYctBK3efs_XM7Pd699pPvtcAt6G7C0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688355565435-p3k1onkenrch6muv9q6uf3mdun9g01mr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
